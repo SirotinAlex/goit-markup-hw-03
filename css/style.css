@@ -56,7 +56,7 @@ color: var(--secondary-text-color);
 
 /* logo webstudio */
 .logo {
-font-family: var(--primary-font-family);    
+font-family: var(--secondary-font-family);    
 font-size: 26px;
 line-height: 1.19;
 color: var(--secondary-text-color);
@@ -200,7 +200,7 @@ padding: 6px 22px;
 .card-title {
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0,06em;
+    letter-spacing: 0.06em;
     color: var(--secondary-text-color);
 }
 
