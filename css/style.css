@@ -103,9 +103,21 @@ color: var(--secondary-text-color);
 color: var(--primary-text-color);
 }
 
+.header-list {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* button */
 
 .button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    text-align: center;
+    border: 1 solid transparent;
+
     background: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -115,6 +127,9 @@ color: var(--primary-text-color);
 }
 
 .hero-title {
+margin-top: 0px;
+margin-bottom: 30px;
+
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
@@ -124,6 +139,8 @@ color: #ffffff;
 /* секция  about */
 
 .about-subtitle {
+margin-top: 0px;
+
 font-size: 14px;
 line-height: 1.14;
 color: var(--secondary-text-color);
@@ -131,9 +148,20 @@ font-weight: 700;
 text-transform: uppercase;
 }
 
-.about-description{
+.about-list {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.about-description {
+margin-bottom: 0px;
+margin-top: 0px;
+
     line-height: 1.71;
 }
+
+
+
 
 /* секция наша команда */
 
