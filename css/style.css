@@ -8,12 +8,24 @@
 
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
  font-family: var(--primary-font-family);
  color: var(--primary-text-color);
  background-color: var(--primay-white-color);
  font-size: 14px;
  letter-spacing: 0.03em;
+
+ margin: 0;
 }
 
 .link {
