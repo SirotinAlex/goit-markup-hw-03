@@ -173,7 +173,7 @@ color: var(--primary-text-color);
     min-width: 200px;
     border: 1px solid transparent;
     align-items: center;
-
+    margin-bottom: 20px;
     background: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -222,6 +222,11 @@ margin-right: 30px;
     line-height: 1.71;
 }
 
+.about-item {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* work */
 
 .work {
@@ -230,7 +235,7 @@ margin-right: 30px;
 }
 
 .section-title {
-    margin-top: 0px;
+    padding-top: 20px;
     margin-bottom: 50px;
     
 }
@@ -238,7 +243,8 @@ margin-right: 30px;
 .work-list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 
@@ -267,7 +273,8 @@ color: #212121;
 .team-list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 /* footer */
@@ -278,6 +285,7 @@ background: #2F303A;
 
 .footer .logo {
 color: var(--primary-white-color);
+
 }
 
 .adress-link {
