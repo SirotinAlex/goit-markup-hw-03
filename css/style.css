@@ -244,7 +244,8 @@ margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+   
 }
 
 
@@ -313,6 +314,7 @@ line-height: 1.71;
 /* ПОРТФОЛИО */
 
 .portfolio-btn {
+
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
@@ -337,6 +339,17 @@ padding: 6px 22px;
 .portfolio-btn.current {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+}
+
+.portfolio-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
 }
 
 .card-list.list {
