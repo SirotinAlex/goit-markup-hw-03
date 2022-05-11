@@ -320,7 +320,7 @@ color: var(--secondary-text-color)
 
 .footer {
 background: #2F303A;
-padding: 60px;
+/* padding: 60px; */
 
 }
 
@@ -336,6 +336,12 @@ display: block;
 font-size: 14px;
 line-height: 1.71;
 color: var(--primary-white-color);
+}
+
+.footer-list {
+    width: 231px;
+height: 81px;
+left: 215px;
 }
 
 .footer-item:not(:last-child){
@@ -399,7 +405,7 @@ padding: 6px 22px;
 .btn-list {
     display: flex;
     justify-content: center;
-    
+    padding: 20px;
     
 }
 
@@ -410,16 +416,22 @@ padding: 6px 22px;
     margin-bottom: -30px;
     }
 
-    .card-item {
-        margin-right: 30px;
-        margin-bottom: 30px;
+.card-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
 
-        width: calc((100% - 90px) / 3);
+    width: calc((100% - 90px) / 3);
 
-        background-color: #ffffff;
-        border-right: 1px solid #eeeeee;
-        border-left: 1px solid #eeeeee;
-        border-bottom: 1px solid #eeeeee;
+    background-color: #ffffff;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    }
+
+    .thumbs {
+    padding: 20px 24px 4px;
+    margin: 4px;
+    text-align: left;
     }
 
 .card-title {
@@ -437,7 +449,7 @@ padding: 6px 22px;
 .card-desc {
     margin-top: 4px;
     margin-bottom: 0px;
-    padding: 30px;
+    padding: 0px;
 
     font-size: 16px;
     line-height: 1.88;
