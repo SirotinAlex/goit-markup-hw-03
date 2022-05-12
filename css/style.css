@@ -50,7 +50,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    outline: 2px solid tomato;
+    
 }
 
 h1, h2, h3, h4, h5, h6, p { 
@@ -138,10 +138,7 @@ color: var(--secondary-text-color);
     color: var(--accent-color);
 }
 
-/* .header-list {
-    display: flex;
-    
-} */
+
 
 .header-item:not(:last-child) {
     margin-right: 50px;
@@ -173,11 +170,7 @@ align-items: center;
 color: var(--primary-text-color);
 }
 
-/* .header-list {
-    padding: 0px;
-    margin: 0px;
-    margin-left: auto;
-} */
+
 
 .header-item .list {
     padding: 0px;
@@ -196,6 +189,7 @@ color: var(--primary-text-color);
     margin-bottom: 20px;
     background: var(--accent-color);
     color: var(--primary-white-color);
+    cursor: pointer;
 }
 
 
@@ -234,6 +228,7 @@ text-transform: uppercase;
 }
 
 .about-list {
+    
     margin-top: 0px;
     margin-bottom: 0px;
     display: flex;
@@ -426,19 +421,18 @@ padding: 6px 22px;
 .card-item {
     margin-right: 30px;
     margin-bottom: 30px;
-
+    width: 370px;
     width: calc((100% - 90px) / 3);
 
     background-color: #ffffff;
-    border-right: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
+    border: 1px solid #eeeeee;
     }
 
     .thumbs {
     padding: 20px 24px 4px;
     margin: 4px;
     text-align: left;
+   
     }
 
 .card-title {
